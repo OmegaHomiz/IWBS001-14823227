@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+header {
+    background-color: #336633;
+    color: white;
+    padding: 12px;
+}
+
+header p {
+    margin: 0 0 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-right: 14px;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    text-decoration: underline;
+}
+
+main {
+    width: 760px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+a {
+    color: #003399;
+}
+
+.working-bee {
+    padding: 10px;
+    border: 1px solid #336633;
+    background-color: #e8f2e8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #666666;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #dddddd;
+    color: #222222;
+}
+
+figure {
+    margin: 14px 0;
+}
+
+img {
+    width: 320px;
+    height: auto;
+    border: 1px solid #666666;
+}
+
+figcaption {
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #336633;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a:focus-visible {
+    outline: 2px solid #ffcc00;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: auto;
+        margin: 15px 8px;
+    }
+}
